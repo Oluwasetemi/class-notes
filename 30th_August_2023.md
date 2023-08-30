@@ -10,20 +10,24 @@
   - lowercase HTML tags
   - closing of the self closing tags
   - lowercase attributes
-- common mistakes of Gotchas
+- common mistakes or Gotchas
   - whitespace
   - image rendering
 
-## Review of Last Class - Lifecycle methods
+> Read More about [Scheduling API](https://javascript.info/settimeout-setinterval)
 
-![Mount](https://files.slack.com/files-tmb/T04766DG6AK-F05PTP6KCCV-c394289b20/image_720.png)
-![Trigger](https://files.slack.com/files-tmb/T04766DG6AK-F05PG4X7A5V-813ad6a2ad/image_720.png)
-![Commit](https://files.slack.com/files-tmb/T04766DG6AK-F05PG4YM7TR-04b2583f01/image_720.png)
-![Render](https://files.slack.com/files-tmb/T04766DG6AK-F05Q9A3536V-347acd9b40/image_720.png)
+## [Review of Last Class - Lifecycle methods](https://stackblitz.com/edit/vitejs-vite-cdfpaj?file=src%2Fmain.jsx)
 
-[Read More](https://react.dev/learn/render-and-commit)
+![Mount](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414630/altschool/zbibflubdqctr97uypls.png)
+![Trigger](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414607/altschool/lc5f390mnj1ifqslmjka.png)
+![Render](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414567/altschool/fhcffw6s7kiymvgsm5sf.png)
+![Commit](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414598/altschool/jzsdiuxrcghj57qp2okt.png)
 
-![Explanation](https://files.slack.com/files-pri/T04766DG6AK-F05PWLZP50A/image.png)
+[Read More about life cycle on React.dev](https://react.dev/learn/render-and-commit)
+
+### Here is a summary explanation of the lifecycle
+
+![Explanation](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414557/altschool/vhpjg99swxpmazho5wxe.png)
 
 Step 0: Mount with ReactDOM
 Step 1: Trigger a render
@@ -51,14 +55,14 @@ Step 3: React commits changes to the DOM
   </div>
 </details>
 
-## Components
+## components
 
-1. Props
+1. Props - function, string, numbers, arrays, object
    - default values ??
    - Fragment
    - Children
    <!-- classwork: create a Button component (borderColor, color, Children) (themeColor, Children) (status, children) -->
-2. Props drilling
+2. Props drilling (co-locating the state in the right component)
 
 ## Iteration; Rendering a list; Understanding the need for a key on each list
 
@@ -79,13 +83,26 @@ Step 3: React commits changes to the DOM
 
 ## Class Take Home Project and Assignments
 
-- Take Home Project ([Star](https://stackblitz.com/edit/vitejs-vite-3f4sce?file=src%2FStarRating.jsx), Grid). Solution Image ([Star](https://files.slack.com/files-tmb/T04766DG6AK-F05Q3827XRC-6f117352c7/image_360.png)).
+- Take Home Project ([Star](https://stackblitz.com/edit/vitejs-vite-3f4sce?file=src%2FStarRating.jsx), [Grid](https://github.com/Oluwasetemi/Grid-AltSchoolClassWork)). Solution Image ([Star](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414531/altschool/ac1zhvoquhdtai5hr8er.png)). ([Grid](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414503/altschool/oxtmohuvcsswye05wppl.png))
+
+Solution Image
+![Star](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414531/altschool/ac1zhvoquhdtai5hr8er.png)
+![Grid](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414503/altschool/oxtmohuvcsswye05wppl.png)
+
 - Assignments
 
-  [Building this out](https://files.slack.com/files-tmb/T04766DG6AK-F05PQ2AU2S2-2b974088cf/image_360.png). Use this [image as a guide to each button](https://files.slack.com/files-pri/T04766DG6AK-F05PQ2CVBU6/image.png). (source the icons from `react-feather` npm package). Add an effect that allows the page title to be updated with the latest count. (Submit before next class)
+  ![Build This](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414546/altschool/ecmzlfp9cgirsp49pogd.png)
+  ![Guide](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414582/altschool/rvusio6qu56lboje9un5.png)
+
+  [Building this out](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414546/altschool/ecmzlfp9cgirsp49pogd.png). Use this [image as a guide to each button](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414582/altschool/rvusio6qu56lboje9un5.png). (source the icons from `react-feather` npm package). Add an effect that allows the page title to be updated with the latest count. (Submit before next class)
 
 ## BONUS: [Converting an Old react project with classes to functions](https://stackblitz.com/edit/react-lifting-state-up-intro?file=index.js)
 
 TODO: [Fix the errors in this project after migrating to the latest react and reactDOM version, change the class to function.](https://stackblitz.com/edit/react-egghead-stopwatch?file=index.js)
 
 > *NEXT CLASS WILL FOCUS ON STATE AND HOOKS*
+
+<!-- CURRENT ASSIGNMENTS -->
+<!-- javascript pick 2 from 3 question that has test midnight of 31st August -->
+<!-- Circle Assignment - JavaScript Calculator(PR link as the evidence during class defense) (16th September) -->
+<!-- Convert our scissors html to React (PR) -->
