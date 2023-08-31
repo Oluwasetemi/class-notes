@@ -59,6 +59,18 @@ Step 3: React commits changes to the DOM
 
 1. Props - function, string, numbers, arrays, object
    - default values ??
+
+     ```jsx
+     // another example of default value
+     function FriendlyGreeting({ name = 'there' }) {
+       return (
+         <p>
+           Hey {name}
+         </p>
+       );
+     }
+     ```
+
    - Fragment
    - Children
    <!-- classwork: create a Button component (borderColor, color, Children) (themeColor, Children) (status, children) -->
@@ -94,7 +106,7 @@ Solution Image
   ![Build This](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414546/altschool/ecmzlfp9cgirsp49pogd.png)
   ![Guide](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414582/altschool/rvusio6qu56lboje9un5.png)
 
-  [Building this out](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414546/altschool/ecmzlfp9cgirsp49pogd.png). Use this [image as a guide to each button](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414582/altschool/rvusio6qu56lboje9un5.png). (source the icons from `react-feather` npm package). Add an effect that allows the page title to be updated with the latest count. (Submit before next class)
+  [Building this out](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414546/altschool/ecmzlfp9cgirsp49pogd.png). Use this [image as a guide to each button](https://res.cloudinary.com/drnqdd87d/image/upload/v1693414582/altschool/rvusio6qu56lboje9un5.png). (source the icons from `react-feather` npm package). Add an effect that allows the page title to be updated with the latest count. ([Submit before next class](https://forms.gle/nt2j6fSHJFuToktq9))
 
 ## BONUS: [Converting an Old react project with classes to functions](https://stackblitz.com/edit/react-lifting-state-up-intro?file=index.js)
 
